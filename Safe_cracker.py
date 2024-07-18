@@ -1,5 +1,6 @@
 # This Python file uses the following encoding: utf-8
 from random import randint, choice
+import time
 
 
 def fitness(combo, attempt):
@@ -47,3 +48,8 @@ def main():
 
 
 main()
+start_time = time.time()
+main()
+end_time = time.time()
+duration = end_time - start_time
+print("Время выполнения этой программы составило {:.7f} секунд.".format(duration))
