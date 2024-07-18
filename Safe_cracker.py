@@ -45,9 +45,6 @@ def main():
     print("за {} попыток!".format(count))
 
 
-
-
-main()
 start_time = time.time()
 main()
 end_time = time.time()
